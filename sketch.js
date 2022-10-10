@@ -244,22 +244,14 @@ function mute()
       bk_song.play();
      }
 }
-function airblow(){
-Matter.Body.applyForce(fruit,{x:0,y:0},{x:0,y:-0.11})
-air.play()
-
-function airblow_2(){
-Matter.Body.applyForce(fruit,{x:0,y:0},{x:0.08,y:0})
-air.play()
-}
 
 
 
 
-
-
-
-
+function airblow(){ 
+  Matter.Body.applyForce(fruit,{x:0,y:0},{x:0,y:-0.11}) air.play() }
+ function airblow_2(){ 
+  Matter.Body.applyForce(fruit,{x:0,y:0},{x:0.08,y:0}) air.play()
 
 
 }
